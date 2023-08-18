@@ -1,0 +1,30 @@
+{
+  "name": "react-editor",
+  "version": "1.0.0",
+  "description": "Build code editor using reactjs",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "(https://github.com/Anuj0918/Editor_io.git)"
+  },
+  "keywords": [
+    "React",
+    "javascript"
+  ],
+  "author": "Anuj Tiwari",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-codemirror2": "^7.2.1",
+    "react-dom": "^18.2.0"
+  }
+}
